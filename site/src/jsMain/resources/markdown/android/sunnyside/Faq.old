@@ -1,0 +1,98 @@
+# Sunny Side FAQs
+
+### UV index is inaccurate.
+
+Sunny Side uses the [Meteorologisk Institute's](https://www.met.no/) API for its data. [Feel free to report any inaccuracy to them.](mailto:klima@met.no)
+
+### Can you add more data sources?
+
+The [Meteorologisk Institute's](https://www.met.no/) API was the only free, reliable source providing current UV index and forecast. Other sources were either unreliable or required a recurring fee. If better data sources pop up, they will be considered, but in the meantime this is the best option for Sunny Side.
+
+### Will you be adding a premium / paid version / subscription?
+
+I have not built Sunny Side as a profit generating project. I intend to keep it free. The downside is that I will have limited time to add new features or maintain it. I will do my best to update Sunny Side if any breaking change is introduced by new Android versions.
+
+### Can you add feature x, y and z?
+
+Please share your idea by sending an email to [sunnyside\_help@tobianoapps.com](mailto:sunnyside_help@tobianoapps.com?subject=Feedback for Sunny Side Android). Just keep in mind that this free app is developed and maintained in my spare time so I cannot guarantee that any new feature will actually be implemented.
+
+### Do you track my location?
+
+The short answer is: Sunny Side does NOT track your location but third-parties _may_.
+
+The long answer is: Sunny Side stores your location on your device only. There is no analytics, ads or any tracking logic implemented in the app. _However_, the app needs to communicate your location to the [Meteorologisk Institute's](https://www.met.no/) API to get UV index data back. Please refer to their [privacy policy](https://www.met.no/en/About-us/privacy). Also, getting your location either through a location request via GPS or via the [Google Places SDK](https://cloud.google.com/maps-platform/places) shares some of your data with Google. Please refer to [Google's privacy policy center](https://policies.google.com/privacy) to learn more.
+
+### Widget not updating?
+
+Widgets require that you grant background and works better with precise location permission.
+
+To check these:
+
+1.  Go to **Settings** -> **Apps** -> **Sunny Side** -> **Permissions** -> **Location**
+2.  Select "Allow all the time" **AND** "Use precise location"
+3.  Delete and re-add widgets.
+
+If you've been switching launchers, make sure you also delete widgets on launchers that you're not using.
+
+If that does not work, try clearing the app's data and cache:
+
+1.  go to **Settings** -> **Apps**
+2.  Click on **See all apps**
+3.  Look for and click on Sunny Side
+4.  Click on **Storage & cache**
+5.  Click on **Clear cache** and **Clear storage**
+
+If that does not work, try deleting Sunny Side, reboot your phone and re-install the app.
+
+Unfortunately some manufacturers implement overly aggressive battery optimization that breaks basic functionality. This is especially true if you're using a Samsung, OnePlus, Huawei or Xiaomi device. To learn more, as well as to view detailed steps for possible fixes, please click on the manufacturer of your device on this website: [https://dontkillmyapp.com/](https://dontkillmyapp.com/).
+
+Please don't hesitate to send an email to [sunnyside\_help@tobianoapps.com](mailto:sunnyside_help@tobianoapps.com?subject=Feedback for Sunny Side Android) to report bugs or if you need any help troubleshooting issues.
+
+### Widget battery usage?
+
+Due to the time-sensitive nature of UV data, and restrictions in the Android OS, a running service is required to keep the widgets up to date.
+
+I have benchmarked Sunny Side's widgets against acclaimed, popular apps and found similar or better performance.
+
+### Location fail / slow update?
+
+GPS location is fetched through Google Play Services. It may take up to 30 seconds for a location refresh.
+
+There are a few things you can try to improve refresh speed and reliability:
+
+1.  grant precise location permission
+2.  as a quick check, go outside and open Google Maps. Check if you can refresh your location in the app. Then try updating your location in Sunny Side.
+3.  make sure Google Play Services are up-to-date and not blocked in any way.
+4.  go to "Location Services" in system settings and make sure "Google Location Accuracy", "Wi-Fi Scanning" and "Bluetooth Scanning" are on.
+5.  do not spoof your location.
+6.  do not use a VPN, ad blocker or other networking restrictions
+
+As an alternative, instead of using GPS location, use the [search function](https://tobianoapps.com/android/sunnyside/images/sunnyside_search_location.png) instead. Location won't update automatically but as long as you're not travelling long distances, UV data will remain accurate.
+
+### I asked for help in the Google Play Store review section so why are you asking me to send an email?
+
+The review section of the Google Play Store has a 350 character limit, does not allow sharing url links, images, videos or files of any type. Conversation history is also difficult to read. [Email](mailto:sunnyside_help@tobianoapps.com?subject=Feedback for Sunny Side Android) is the best way to provide support.
+
+### Network, location, data empty? Problem not listed here?
+
+Please send an email to [sunnyside\_help@tobianoapps.com](mailto:sunnyside_help@tobianoapps.com?subject=Feedback for Sunny Side Android) and I'd be happy to help troubleshoot or fix a bug if there is one to fix. The Google Play Store review section is not the right place for troubleshooting these issues.
+
+A few things you can check in the meantime are:
+
+1.  make sure that you are using the [latest version of Sunny Side by checking for updates in the Google Play Store](https://play.google.com/store/apps/details?id=com.tobianoapps.sunnyside).
+2.  if you are using a VPN, or any ad blocking software, turn them off and try again.
+3.  make sure that you have a strong, consistent internet connection.
+4.  for location, please see the section above entitled **"Location slow update"**.
+5.  make sure your device system time is correct. The best way to do so is to go to _**System Settings**_ -> _**System**_ -> _**Date & Time**_ and set every option to "_automatic_" or "_network-provided_". Then restart your device.
+
+### City name / region displayed as coordinates
+
+On rare occasions, fetching city name & region may fail. Instead of showing nothing, shortened coordinates will be displayed.
+
+A few things you can check in the meantime are:
+
+1.  restart the app
+2.  make sure that you have a strong, consistent internet connection.
+3.  make sure Google Play Services are up to date and not blocked in any way.
+4.  make sure that you are using the [latest version of Sunny Side by checking for updates in the Google Play Store](https://play.google.com/store/apps/details?id=com.tobianoapps.sunnyside).
+5.  if you are using a VPN, or any ad blocking software, turn them off and try again.
