@@ -62,7 +62,7 @@ object Res {
         const val RUBIK = "Rubik"
 
         const val FOOTER_WEBSITE = "This website"
-        const val WEBSITE_LINK = "https://github.com/sebastinto/OEssHRERLr770rGGLOH0.github.io"
+        const val WEBSITE_LINK = "https://github.com/sebastinto/tobianoapps.com"
         const val FOOTER_BUILT_WITH = " was built with "
 
         const val KOTLIN = "Kotlin"
