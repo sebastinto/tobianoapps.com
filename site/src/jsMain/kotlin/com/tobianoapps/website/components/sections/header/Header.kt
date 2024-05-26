@@ -6,6 +6,7 @@ import com.varabyte.kobweb.compose.css.Cursor
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.ObjectFit
 import com.varabyte.kobweb.compose.css.TextAlign
+import com.varabyte.kobweb.compose.css.functions.CSSFilter
 import com.varabyte.kobweb.compose.css.functions.blur
 import com.varabyte.kobweb.compose.css.functions.saturate
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
@@ -13,7 +14,6 @@ import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.foundation.layout.Spacer
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
-import com.varabyte.kobweb.compose.ui.modifiers.backdropFilter
 import com.varabyte.kobweb.compose.ui.modifiers.backgroundColor
 import com.varabyte.kobweb.compose.ui.modifiers.borderBottom
 import com.varabyte.kobweb.compose.ui.modifiers.cursor
@@ -28,6 +28,7 @@ import com.varabyte.kobweb.compose.ui.modifiers.position
 import com.varabyte.kobweb.compose.ui.modifiers.size
 import com.varabyte.kobweb.compose.ui.modifiers.textAlign
 import com.varabyte.kobweb.compose.ui.modifiers.top
+import com.varabyte.kobweb.compose.ui.styleModifier
 import com.varabyte.kobweb.core.rememberPageContext
 import com.varabyte.kobweb.silk.components.graphics.Image
 import com.varabyte.kobweb.silk.components.text.SpanText
@@ -47,17 +48,13 @@ import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.percent
 import org.jetbrains.compose.web.css.px
 
-///**
-// * Setting a blur value on [com.varabyte.kobweb.compose.ui.modifiers.backdropFilter] does not work on Safari.
-// * This alternative fixes the issue by adding a `-webkit-backdrop-filter` property.
-// */
-//fun Modifier.backdropFilter(vararg filters: CSSFilter) = styleModifier {
-//    if (filters.isNotEmpty()) {
-//        listOf("backdrop-filter", "-webkit-backdrop-filter").forEach {
-//            property(it, filters.joinToString(" "))
-//        }
-//    }
-//}
+fun Modifier.backdropFilter(vararg filters: CSSFilter) = styleModifier {
+    if (filters.isNotEmpty()) {
+        listOf("backdrop-filter", "-webkit-backdrop-filter").forEach {
+            property(it, filters.joinToString(" "))
+        }
+    }
+}
 
 @CssPrefix("tba-header")
 val HeaderStyle = CssStyle.base(extraModifier = { SmoothColorStyle.toModifier() }) {
