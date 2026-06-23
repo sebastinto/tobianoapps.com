@@ -1,7 +1,7 @@
 ---
 root: .components.layout.DocLayout
-title: Sunny Side Terms & Conditions
-description: Terms & Conditions for the Sunny Side app
+title: Sunny Side Terms & Conditions (iOS)
+description: Terms & Conditions for the Sunny Side app on iOS
 ---
 
 ## **Terms & Conditions**
@@ -10,26 +10,28 @@ By downloading or using the app, these terms will automatically apply to you –
 
 [Tobiano Apps](https://www.tobianoapps.com/) is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.
 
-The Sunny Side app stores and processes personal data that you have provided to us, in order to provide support through email. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Sunny Side app won’t work properly or at all.
+The Sunny Side app stores and processes personal data that you have provided to us, in order to provide support through email. It’s your responsibility to keep your device and access to the app secure. We therefore recommend that you do not jailbreak your device, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your device vulnerable to malware/viruses/malicious programs, compromise your device’s security features and it could mean that the Sunny Side app won’t work properly or at all.
 
 ### **Subscriptions**
 
 Sunny Side is free to download and use. It also offers an optional auto-renewable subscription, **Sunny Side Pro**, which unlocks premium features such as additional data sources, multiple favorite locations, sun-protection reminders, more frequent data refreshes and an extended forecast.
 
-*   Payment is charged to your Google Play account at confirmation of purchase.
-*   A subscription automatically renews unless it is cancelled at least 24 hours before the end of the current period.
-*   You can manage your subscription and turn off auto-renewal in the Google Play Store’s subscription settings at any time after purchase. Cancelling takes effect at the end of the current billing period.
+*   Payment is charged to your Apple Account at confirmation of purchase.
+*   A subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
+*   Your account is charged for renewal within 24 hours prior to the end of the current period, at the price of the plan you selected.
+*   You can manage your subscription and turn off auto-renewal in your App Store account settings at any time after purchase.
 *   If a free trial is offered, any unused portion is forfeited when you purchase a subscription, where applicable.
 *   Prices may vary by region and are confirmed in the app before purchase.
 
-Purchases and subscriptions are processed and managed by Google through the Google Play Store, subject to the [Google Play Terms of Service](https://play.google.com/about/play-terms/). Refunds are handled by Google in accordance with its policies.
+Purchases and subscriptions are processed and managed by Apple through the App Store, subject to the [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/). Refunds are handled by Apple in accordance with its policies.
 
 The app does use third party services that declare their own Terms and Conditions.
 
 Link to Terms and Conditions of third party service providers used by the app:
 
-*   [Google Play Services](https://policies.google.com/terms)
-*   [Google Play Terms of Service](https://play.google.com/about/play-terms/)
+*   [Apple Media Services](https://www.apple.com/legal/internet-services/itunes/)
+*   [Apple Weather](https://weatherkit.apple.com/legal-attribution.html)
+*   [Google Maps Platform](https://cloud.google.com/maps-platform/terms)
 *   [RevenueCat](https://www.revenuecat.com/terms)
 
 You should be aware that there are certain things that [Tobiano Apps](https://www.tobianoapps.com/) will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but [Tobiano Apps](https://www.tobianoapps.com/) cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
@@ -40,7 +42,7 @@ Along the same lines, [Tobiano Apps](https://www.tobianoapps.com/) cannot always
 
 With respect to [Tobiano Apps](https://www.tobianoapps.com/)' responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. [Tobiano Apps](https://www.tobianoapps.com/) accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app. In particular, the UV Index and forecast data are provided for general informational purposes only and should not be relied upon as a substitute for professional medical or safety advice.
 
-At some point, we may wish to update the app. The app is currently available on Android – the requirements for system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. [Tobiano Apps](https://www.tobianoapps.com/) does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
+At some point, we may wish to update the app. The app is currently available on iOS – the requirements for the system (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. [Tobiano Apps](https://www.tobianoapps.com/) does not promise that it will always update the app so that it is relevant to you and/or works with the iOS version that you have installed on your device. However, you promise to always accept updates to the application when offered to you. We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
 
 ### **Changes to these Terms and Conditions**
 
