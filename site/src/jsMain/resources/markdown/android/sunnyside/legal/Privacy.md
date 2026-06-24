@@ -26,12 +26,17 @@ Link to privacy policy of third party service providers used by the app
 *   [Google Maps Platform / Places](https://policies.google.com/privacy)
 *   [Meteorologisk Institutt (MET Norway)](https://www.met.no/en/About-us/privacy)
 *   [RevenueCat](https://www.revenuecat.com/privacy)
+*   [Sentry](https://sentry.io/privacy/)
+
+### **Crash & Stability Monitoring**
+
+To keep the app reliable, Sunny Side uses [Sentry](https://sentry.io/) for anonymous crash and stability monitoring. When the app hits an error or crash, Sentry receives diagnostic information — such as the error, the app version, and device and operating-system details — so we can find and fix problems. This is the only monitoring in the app: there is no advertising, no behavioral analytics, and no tracking of you across other apps or websites, and the data is not used to identify you personally.
 
 ### **Log Data**
 
 Although we do not collect any log data, we want to inform you that whenever you use this Service, in a case of an error in the app, third-party products (like the Google Play Store) may collect data and information on your phone. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing this Service, the time and date of your use of the Service, and other statistics.
 
-Sunny Side stores your location on your device only. It is not used for ads or analytics, and there is no ad or tracking SDK in the app. To return UV index data, the app sends your location to the weather data provider you have selected: by default the [Meteorologisk Institutt (MET Norway)](https://www.met.no/) API, or — if you subscribe to Sunny Side Pro and choose it — Google Weather. Please refer to the relevant provider’s privacy policy ([MET Norway](https://www.met.no/en/About-us/privacy), [Google](https://policies.google.com/privacy)). Also, getting your location either through a location request via GPS or via the [Google Places SDK](https://cloud.google.com/maps-platform/places) shares some of your data with Google. Please refer to [Google's privacy policy center](https://policies.google.com/privacy) to learn more.
+Sunny Side stores your location on your device only. It is not used for ads or behavioral analytics. To return UV index data, the app sends your location to the weather data provider you have selected: by default the [Meteorologisk Institutt (MET Norway)](https://www.met.no/) API, or — if you subscribe to Sunny Side Pro and choose it — Google Weather. Please refer to the relevant provider’s privacy policy ([MET Norway](https://www.met.no/en/About-us/privacy), [Google](https://policies.google.com/privacy)). Also, getting your location either through a location request via GPS or via the [Google Places SDK](https://cloud.google.com/maps-platform/places) shares some of your data with Google. Please refer to [Google's privacy policy center](https://policies.google.com/privacy) to learn more.
 
 Location access is necessary to locate your position and retrieve UV index data. Background location access is required to refresh your location and UV index data when you use widgets. In order to update widgets, Sunny Side may access your location even when the app is closed or not in use.
 

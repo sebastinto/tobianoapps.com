@@ -26,10 +26,11 @@ Link to the privacy policy of third party service providers used by the app:
 *   [Google Maps Platform / Places](https://policies.google.com/privacy)
 *   [Meteorologisk Institutt (MET Norway)](https://www.met.no/en/About-us/privacy)
 *   [RevenueCat](https://www.revenuecat.com/privacy)
+*   [Sentry](https://sentry.io/privacy/)
 
 ### **Location Data**
 
-Sunny Side stores your location on your device only. It is not used for advertising or analytics, and there is no ad or tracking SDK in the app. To return UV Index data, the app sends your location to the weather data provider you have selected:
+Sunny Side stores your location on your device only. It is not used for advertising or behavioral analytics. To return UV Index data, the app sends your location to the weather data provider you have selected:
 
 *   By default, the [Meteorologisk Institutt (MET Norway)](https://www.met.no/) API.
 *   If you subscribe to Sunny Side Pro and choose it, Apple Weather (powered by [Apple WeatherKit](https://developer.apple.com/weatherkit/)).
@@ -39,6 +40,10 @@ Looking up a place by name uses the [Google Places](https://cloud.google.com/map
 ### **Subscriptions and Purchases**
 
 Sunny Side Pro subscriptions are sold and processed by Apple through the App Store. We do not receive or store your payment information. To manage your subscription and entitlements across devices, we use [RevenueCat](https://www.revenuecat.com/), which receives a pseudonymous, app-generated identifier and your subscription status. We do not use this information to identify you personally.
+
+### **Crash & Stability Monitoring**
+
+To keep the app reliable, Sunny Side uses [Sentry](https://sentry.io/) for anonymous crash and stability monitoring. When the app hits an error or crash, Sentry receives diagnostic information — such as the error, the app version, and device and operating-system details — so we can find and fix problems. This is the only monitoring in the app: there is no advertising, no behavioral analytics, and no tracking of you across other apps or websites, and the data is not used to identify you personally.
 
 ### **Log Data**
 
